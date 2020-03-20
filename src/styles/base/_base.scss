@@ -1,3 +1,26 @@
 body {
   color: #111
 }
+
+body * {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, header, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+:focus, a {
+  outline: none;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, blockquote {
+  font-weight: 400;
+  color: inherit;
+}

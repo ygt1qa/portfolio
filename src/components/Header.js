@@ -4,8 +4,7 @@ function Header() {
   return (
     <header className="header">
       <h4 className="header__home">
-        HOME
-        {/* <button>HOME</button> */}
+        <a href="/">HOME</a>
       </h4>
     </header>
   )
