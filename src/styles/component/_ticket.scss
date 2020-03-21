@@ -1,0 +1,17 @@
+.ticket {
+  padding-right: 40px;
+  z-index: 7;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #fffA0c;
+  width: 100%;
+  max-width: 1550px;
+  padding-left: 110px;
+  display: block;
+  transform: translateY(0);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0.8;
+  font-size: 150%;
+}
