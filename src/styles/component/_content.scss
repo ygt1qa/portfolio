@@ -1,8 +1,15 @@
+.content__selector {
+  position: relative;
+  z-index: 15;
+}
+
 .content__container {
+  position: relative;
   background-color: #111;
   margin-left: 70px;
   transform: translateX(0);
   max-width: calc(100% - 70px);
+  z-index: 15;
 }
 
 .content--main {

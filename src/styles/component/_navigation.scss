@@ -10,7 +10,7 @@
   z-index: 10;
 }
 
-.navBar button {
+.navBar .navBar__button a {
   color: #555;
   background-color: #000;
   border: none;
@@ -22,21 +22,21 @@
   transition: color 0.5s;
 }
 
-.navBar button:hover,
-.navBar button:checked {
+.navBar a:hover,
+.navBar a:checked {
   color: #FFF;
 }
 
-.navBar button:focus {
-  outline: 0;
-}
-
-.navBar .btn__work {
+.navBar .navBar__button a.btn__work {
   padding-top: 6px;
 }
 
+.navBar .navBar__button a.btn__skill {
+  padding-top: 11px;
+}
+
 .navBar .navBar__contact {
-  margin-top: 300px;
+  margin-top: 400px;
 }
 
 .navBar .social__links {

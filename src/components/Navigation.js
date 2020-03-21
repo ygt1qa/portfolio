@@ -1,12 +1,13 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
     <div className="navBar">
       <div className="navBar__button">
-        <button className="btn__about">ABOUT</button>
-        <button className="btn__work">WORK</button>
-        <button className="btn__skills">SKILLS</button>
+        <NavLink to="about" className="btn__about">ABOUT</NavLink>
+        <NavLink to="work" className="btn__work">WORK</NavLink>
+        <NavLink to="skill" className="btn__skill">SKILL</NavLink>
       </div>
 
       <div className="navBar__contact">

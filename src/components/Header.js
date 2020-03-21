@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Header() {
+function Header(props) {
   return (
-    <header className="header">
+    <header className={'header ' + 'header__' + props.color}>
       <h4 className="header__home">
         <a href="/">HOME</a>
       </h4>

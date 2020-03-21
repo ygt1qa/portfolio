@@ -1,16 +1,37 @@
 .header {
   width: calc(100% - 70px);
-  transform: translateX(70px);
   padding-left: 20px;
   max-width: 1480px;
   height: 70px;
   position: fixed;
-  z-index: 6;
+  z-index: 16;
   top: 0;
   left: 0;
-  background-color: #FFF;
   overflow: hidden;
 }
+
+.header__light {
+  background-color: #FFF;
+}
+
+.header__light .header__home a {
+  color: #000;
+}
+
+.header__dark {
+  background-color: #000;
+}
+
+.header__dark .header__home a {
+  color: #555;
+  transition: color 0.5s;
+}
+
+.header__dark .header__home a:hover,
+.header__dark .header__home a:active {
+  color: #FFF;
+}
+
 
 .header a {
   position: relative;
