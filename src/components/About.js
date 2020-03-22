@@ -11,15 +11,15 @@ function About() {
       <div className="outer">
         <header className="content__header content__header--intro content__header--outer">
           <div className="section-title">
-            <h2 className="big-title">What we do</h2>
-            <h2 className="main-title">ABOUT US</h2>
+            <h2 className="big-title">What I Do</h2>
+            <h2 className="main-title">ABOUT ME</h2>
             <p className="text-big centered">
               ーHello, My name is YASUYUKI OKASAKA!<br />
-                I'm enthusiastic web developer, and good at backend.<br /><br />
-                I live in Japan, Hyogo, and work at Osaka now.<br /><br />
-                I like to study something!! <br />
-                Recently, I am interested in Web design and learning now.
-              </p>
+              I'm enthusiastic web developer, and good at backend.<br /><br />
+              I live in Japan, Hyogo, and work at Osaka now.<br /><br />
+              I like to study something!! <br />
+              Recently, I am interested in Web design and learning now.
+            </p>
           </div>
         </header>
         <div className="row">

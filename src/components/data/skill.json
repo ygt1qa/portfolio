@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Python",
+		"type": "language",
+		"score": 4,
+		"experience": 1.5
+	},
+	{
+		"name": "Golang",
+		"type": "language",
+		"score": 3,
+		"experience": 0.5
+	},
+	{
+		"name": "Flask",
+		"type": "framework",
+		"score": 3,
+		"experience": 1.5
+	}
+]
