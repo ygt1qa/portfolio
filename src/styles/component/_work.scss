@@ -1,0 +1,129 @@
+.resume_section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.resume_section-inner {
+  display: flex;
+  padding: 30px 25px 10px;
+  width: 100%;
+}
+
+.resume_section-title {
+  color: #FFF;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0 0 20px;
+  min-width: 21%;
+}
+
+.resume_section-title:before {
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 24px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.resume_section-content {
+  flex-grow: 1;
+}
+
+.resume_section-content_item {
+  padding-bottom: 16px;
+  padding-left: 36px;
+  margin-bottom: 16px;
+  clear: left;
+  margin: 0 0 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.resume_section-content_item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #8f96a3;
+}
+
+.resume_section-content_item:after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 25px;
+  bottom: 0;
+  border-left: 1px dashed #8f96a3;
+}
+
+.resume_section-content_row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume_section-content_item .resume_section-content_row {
+  justify-content: normal;
+}
+
+.resume_section-content_title {
+  flex-basis: 100%;
+  color: #FFF;
+  font-weight: 400;
+  flex: 1 0 100%;
+  line-height: 24px;
+  font-size: 17px;
+}
+
+.resume_section-content_item .resume_section-content_range {
+  flex-grow: 1;
+  line-height: 16px;
+  margin-left: 0;
+  max-width: none;
+  min-width: auto;
+  order: 2;
+  text-align: left;
+  color: #8f96a3;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.resume_section-content_item .resume_section-content_range:before {
+  content: "\B7";
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.resume_section-content_item .resume_section-content_subtitle {
+  width: auto;
+  color: #8f96a3;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.resume_section-content_item .muted {
+  color: #FFF; 
+}
+
+.resume_section-content_item ul {
+  margin-bottom: 8px;
+  margin: 5px 0 0;
+  padding-left: 16px;
+}
+
+.resume_section-content_item li {
+  margin-bottom: 8px;
+  padding: 0 0 0 24px;
+  font-size: 14px;
+  line-height: 24px;
+  list-style: disc;
+}
+
+.resume_section-content_item .technologies {
+  color: #8f96a3;
+  font-size: 14px;
+  line-height: 20px;
+}

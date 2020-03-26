@@ -7,6 +7,13 @@ import Work from './Work';
 import Skill from './Skill';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
+// onChangeに渡すコールバック
+const handleLocationChange = (prevState, nextState) => {
+  if (nextState.location.action !== "POP") {
+    window.scrollTo(0, 0);
+  }
+};
+
 function Selector() {
   return (
     <div className="content__container">
@@ -14,14 +21,14 @@ function Selector() {
         <TransitionGroup>
           <CSSTransition
             key={children.location.key}
-            timeout={3000}
+            timeout={1000}
             classNames="fade"
           >
             <Switch location={children.location}>
-              <Route exact path="/" component={Content}></Route>
-              <Route path="/about" component={About}></Route>
-              <Route path="/work" component={Work}></Route>
-              <Route path="/skill" component={Skill}></Route>
+              <Route exact path="/" component={Content} onChange={handleLocationChange}></Route>
+              <Route path="/about" component={About} onChange={handleLocationChange}></Route>
+              <Route path="/work" component={Work} onChange={handleLocationChange}></Route>
+              <Route path="/skill" component={Skill} onChange={handleLocationChange}></Route>
             </Switch>
           </CSSTransition>
         </TransitionGroup>
