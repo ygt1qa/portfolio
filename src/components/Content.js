@@ -1,11 +1,16 @@
-import React from 'react';
-import Header from './Header';
+import React, { useEffect } from 'react';
 import Ticket from './Ticket';
 
 function Content() {
+  useEffect(() => {
+    return () => {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loading');
+    };
+  }, []);
+
   return (
     <div className="content content--main">
-      <Header color={'light'} />
       <div className="content__inner">
         <div className="content">
           <header className="content__header content__header--intro">

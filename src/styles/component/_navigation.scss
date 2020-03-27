@@ -71,3 +71,8 @@
   padding-left: 20px;
   font-size: 30px;
 }
+
+.navBar .navBar__button a.active {
+  color: #FFF;
+  pointer-events: none;
+}

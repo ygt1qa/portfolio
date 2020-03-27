@@ -1,31 +1,44 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import backIcon from '../vendor/img/f_f_business_4_svg_f_business_4_0nbg.svg';
 import frontIcon from '../vendor/img/f_f_business_56_svg_f_business_56_0nbg.svg';
 import designIcon from '../vendor/img/f_f_object_26_svg_f_object_26_0nbg.svg';
+import profile from '../vendor/img/aviary-image-1523007487695_1_1.jpg';
 import Header from './Header';
 
 function About() {
+  useEffect(() => {
+    document.body.classList.add('loading');
+    document.body.classList.remove('loaded');
+    return () => {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loading');
+    };
+  }, []);
+
   return (
     <div className="content content--main">
-      <Header color={'dark'} />
       <div className="outer">
         <header className="content__header content__header--intro content__header--outer">
           <div className="section-title">
             <h2 className="big-title">What I Do</h2>
             <h2 className="main-title">ABOUT ME</h2>
-            <p className="text-big centered">
-              ーHello, My name is YASUYUKI OKASAKA!<br />
+            <img src={profile} className="profile__photo" />
+            <div className="profile__content">
+              <p className="text-big centered">
+                ーHello, My name is YASUYUKI OKASAKA!<br />
               I'm enthusiastic web developer, and good at backend.<br /><br />
               I live in Japan, Hyogo, and work at Osaka now.<br /><br />
               I like to study something!! <br />
               Recently, I am interested in Web design and learning now.
-            </p>
+              </p>
+            </div>
           </div>
         </header>
         <div className="row">
           <div className="col-md-3">
             <img src={backIcon} alt="front"></img>
             <h3>BACK END</h3>
+            <span className="good">I'm good at!!</span>
           </div>
           <div className="col-md-3">
             <img src={frontIcon} alt="back"></img>
@@ -34,7 +47,7 @@ function About() {
           <div className="col-md-3 studying">
             <img src={designIcon} alt="back"></img>
             <h3>WEB DESIGN</h3>
-            <span className="studying">NOW STUDYING!!</span>
+            <span className="studying">Now studying!!</span>
           </div>
         </div>
       </div>

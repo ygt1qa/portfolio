@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import SkillTable from './SkillTable';
 import data from './data/skill.json';
@@ -8,6 +8,15 @@ function Skill() {
   const [active, setActive] = useState('all');
   const [ExperienceAsc, setExperienceAsc] = useState(false);
   const [ScoreAsc, setScoreAsc] = useState(false);
+
+  useEffect(() => {
+    document.body.classList.add('loading');
+    document.body.classList.remove('loaded');
+    return () => {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loading');
+    };
+  }, []);
 
   const handleOnClick = (e) => {
     if (e.target.value === 'all') {
@@ -54,7 +63,6 @@ function Skill() {
 
   return (
     <div className="content content--main">
-      <Header color={'dark'} />
       <div className="outer skill__outer">
         <header className="content__header content__header--intro content__header--outer">
           <div className="section-title">

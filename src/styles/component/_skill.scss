@@ -5,22 +5,22 @@ margin: 0 auto;
 padding: 0;
 width: 650px;
 table-layout: fixed;
-color: #4CAF50;
+// color: #4CAF50;
 }
 
 table tr {
 padding: .35em;
-border-bottom: 1px dotted #8BC34A;
+border-bottom: 1px dotted #FFF;
 }
 table tr:last-child{
-    border-bottom: 2px solid #18521b;
+  border-bottom: 2px solid #FFF;
 }
 table th,
 table td {
   padding: 1em 10px 1em 1em;
 }
 tbody th {
-  color: #0f7d13;
+  color: #888;
 }
 .experience,
 .score {
@@ -64,16 +64,13 @@ tbody th {
   transition: transform .3s;
 }
 
-.skill__outer .filter button:hover::after {
-  transform: scale(1, 1);
-}
-
+.skill__outer .filter button:hover::after,
 .skill__outer .filter button.active::after {
   transform: scale(1, 1);
 }
 
 .skill__outer .skill__table button {
-  color: #4CAF50;
+  color: #FFF;
   font-size: 18px;
 }
 

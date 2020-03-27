@@ -25,7 +25,7 @@ const Resume = () => {
           <ul>
             {contents}
           </ul>
-          <div class="technologies">
+          <div className="technologies">
             Technologies: {data.technologies.join(',')}
           </div>
         </div>

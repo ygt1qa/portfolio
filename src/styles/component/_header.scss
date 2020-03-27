@@ -1,5 +1,5 @@
 .header {
-  width: calc(100% - 70px);
+  width: 100%;
   padding-left: 20px;
   max-width: 1480px;
   height: 70px;
@@ -8,6 +8,7 @@
   top: 0;
   left: 0;
   overflow: hidden;
+  margin-left: 70px;
 }
 
 .header__light {

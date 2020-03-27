@@ -5,7 +5,7 @@
 
 .content__container {
   position: relative;
-  background-color: #111;
+  background:linear-gradient(90deg,#000 0%,#000 1480px,#111 1480px,#111 100%);
   margin-left: 70px;
   transform: translateX(0);
   max-width: calc(100% - 70px);
@@ -31,7 +31,7 @@
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 185px 0 100px 0;
+  margin: 185px 0 50px 0;
 }
 
 .content__header:after {
