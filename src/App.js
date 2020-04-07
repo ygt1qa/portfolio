@@ -1,17 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import './styles/styles.scss';
-import './vendor/pictonic/css/pictonic.scss';
-import Navigation from './components/Navigation';
-import Selector from './components/Selector';
-import ScrollToTop from './components/ScrollToTop';
-import Header from './components/Header';
+import "./styles/styles.scss";
+import "./vendor/pictonic/css/pictonic.scss";
+import Navigation from "./components/Navigation";
+import Selector from "./components/Selector";
+import ScrollToTop from "./components/ScrollToTop";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
-  const [pageColor, setColor] = useState(window.location.pathname === '/' ? 'light' : 'dark');
+  const [pageColor, setColor] = useState(
+    window.location.pathname === "/" ? "light" : "dark"
+  );
   const changeDarkColor = () => {
-    setColor('dark')
-  }
+    setColor("dark");
+  };
   return (
     <Router>
       <div className="App">
@@ -19,6 +22,7 @@ function App() {
         <ScrollToTop />
         <Navigation handleClick={changeDarkColor} />
         <Selector />
+        <Footer />
       </div>
     </Router>
   );

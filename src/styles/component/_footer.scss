@@ -1,0 +1,73 @@
+footer.content__footer {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    #000 0%,
+    #000 1480px,
+    #111 1480px,
+    #111 100%
+  );
+  padding-left: 20px;
+  height: 70px;
+  margin-left: 70px;
+}
+
+footer p {
+  font-weight: 500;
+  line-height: 1.33333rem;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+footer .footer__row {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+footer .footer__nav {
+  list-style: none;
+  float: left;
+  padding-left: 17px;
+}
+
+footer .footer__nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer .footer__left__offset {
+  text-align: left;
+  margin-left: 40px;
+  width: 41.6667%;
+  float: left;
+}
+
+.footer__nav li a:link,
+.footer__nav li a:visited {
+  transition: color 0.5s;
+  color: #555;
+}
+
+.footer__nav li a:hover,
+.footer__nav li a:active {
+  color: #fff;
+}
+
+.footer__nav li .icon-mail,
+.footer__nav li .icon-twitter-3,
+.footer__nav li .icon-facebook,
+.footer__nav li .icon-github-01 {
+  font-size: 22px;
+  padding-left: 24px;
+}
+
+.footer__nav li .icon-github-01 {
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.footer__nav .footer__nav__button a.active {
+  color: #fff;
+  pointer-events: none;
+}

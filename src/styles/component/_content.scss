@@ -5,11 +5,18 @@
 
 .content__container {
   position: relative;
-  background:linear-gradient(90deg,#000 0%,#000 1480px,#111 1480px,#111 100%);
+  background: linear-gradient(
+    90deg,
+    #000 0%,
+    #000 1480px,
+    #111 1480px,
+    #111 100%
+  );
   margin-left: 70px;
   transform: translateX(0);
   max-width: calc(100% - 70px);
   z-index: 15;
+  padding-bottom: 8rem;
 }
 
 .content--main {
@@ -19,7 +26,7 @@
 .content {
   max-width: 1480px;
   overflow: hidden;
-  background-color: #FFF;
+  background-color: #fff;
   position: relative;
 }
 

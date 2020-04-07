@@ -24,7 +24,7 @@
 
 .navBar a:hover,
 .navBar a:checked {
-  color: #FFF;
+  color: #fff;
 }
 
 .navBar .navBar__button a.btn__work {
@@ -37,42 +37,4 @@
 
 .navBar .navBar__contact {
   margin-top: 400px;
-}
-
-.navBar .social__links {
-  list-style: none;
-  padding-left: 0px;
-}
-
-.navBar ul li {
-  margin-bottom: 25px;
-}
-
-.navBar ul li a:link,
-.navBar ul li a:visited {
-  transition: color 0.5s;
-  color: #555;
-}
-
-.navBar ul li a:hover,
-.navBar ul li a:active {
-  color: #FFF;
-}
-
-.navBar ul li .icon-mail,
-.navBar ul li .icon-twitter-3,
-.navBar ul li .icon-facebook,
-.navBar ul li .icon-github-01 {
-  font-size: 22px;
-  padding-left: 24px;
-}
-
-.navBar ul li .icon-github-01 {
-  padding-left: 20px;
-  font-size: 30px;
-}
-
-.navBar .navBar__button a.active {
-  color: #FFF;
-  pointer-events: none;
 }
