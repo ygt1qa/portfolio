@@ -5,7 +5,6 @@ import About from "./About";
 import Content from "./Content";
 import Work from "./Work";
 import Skill from "./Skill";
-import Footer from "./Footer";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 function Selector() {
@@ -16,7 +15,7 @@ function Selector() {
           <TransitionGroup>
             <CSSTransition
               key={children.location.key}
-              timeout={1000}
+              timeout={400}
               classNames="fade"
             >
               <Switch location={children.location}>

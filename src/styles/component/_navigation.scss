@@ -38,3 +38,8 @@
 .navBar .navBar__contact {
   margin-top: 400px;
 }
+
+.navBar a.active {
+  color: #fff;
+  pointer-events: none;
+}

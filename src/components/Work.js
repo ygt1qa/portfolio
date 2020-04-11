@@ -1,15 +1,14 @@
-import React, { useEffect } from 'react';
-import Header from './Header';
-import WorkAccordion from './WorkAccordion';
-import Resume from './Resume';
+import React, { useEffect } from "react";
+import Footer from "./Footer";
+import Resume from "./Resume";
 
 function Work() {
   useEffect(() => {
-    document.body.classList.add('loading');
-    document.body.classList.remove('loaded');
+    document.body.classList.add("loading");
+    document.body.classList.remove("loaded");
     return () => {
-      document.body.classList.add('loaded');
-      document.body.classList.remove('loading');
+      document.body.classList.add("loaded");
+      document.body.classList.remove("loading");
     };
   }, []);
 
@@ -20,16 +19,13 @@ function Work() {
           <div className="section-title">
             <h2 className="big-title">What I WORKED</h2>
             <h2 className="main-title">MY WORKS</h2>
-            <p className="text-big centered">
-              This is my career.
-            </p>
           </div>
         </header>
-        {/* <WorkAccordion /> */}
         <Resume />
       </div>
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default Work;

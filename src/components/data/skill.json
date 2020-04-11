@@ -1,20 +1,170 @@
 [
-	{
-		"name": "Python",
-		"type": "language",
-		"score": 4,
-		"experience": 1.5
-	},
-	{
-		"name": "Golang",
-		"type": "language",
-		"score": 3,
-		"experience": 0.5
-	},
-	{
-		"name": "Flask",
-		"type": "framework",
-		"score": 3,
-		"experience": 1.5
-	}
+  {
+    "name": "Python",
+    "type": "language",
+    "score": 4,
+    "experience": 2
+  },
+  {
+    "name": "Golang",
+    "type": "language",
+    "score": 4,
+    "experience": 1
+  },
+  {
+    "name": "Flask",
+    "type": "framework",
+    "score": 3,
+    "experience": 1.5
+  },
+  {
+    "name": "C#",
+    "type": "language",
+    "score": 3,
+    "experience": 2
+  },
+  {
+    "name": "VB.NET",
+    "type": "language",
+    "score": 3,
+    "experience": 2
+  },
+  {
+    "name": "Ruby",
+    "type": "language",
+    "score": 3,
+    "experience": 0.5
+  },
+  {
+    "name": "HTML",
+    "type": "language",
+    "score": 3,
+    "experience": 1
+  },
+  {
+    "name": "CSS",
+    "type": "language",
+    "score": 3,
+    "experience": 0.5
+  },
+  {
+    "name": "Javascript",
+    "type": "language",
+    "score": 3,
+    "experience": 1
+  },
+  {
+    "name": "React",
+    "type": "framework",
+    "score": 3,
+    "experience": 0.5
+  },
+  {
+    "name": "Vue.js",
+    "type": "framework",
+    "score": 2,
+    "experience": 0.5
+  },
+  {
+    "name": "Gin",
+    "type": "framework",
+    "score": 3,
+    "experience": 1
+  },
+  {
+    "name": "Docker",
+    "type": "others",
+    "score": 4,
+    "experience": 2
+  },
+  {
+    "name": "kubernetes",
+    "type": "others",
+    "score": 2,
+    "experience": 0.5
+  },
+  {
+    "name": ".NET Framework",
+    "type": "framework",
+    "score": 3,
+    "experience": 2
+  },
+  {
+    "name": "Ruby on Rails",
+    "type": "framework",
+    "score": 3,
+    "experience": 1
+  },
+  {
+    "name": "SQLServer",
+    "type": "db",
+    "score": 3,
+    "experience": 2
+  },
+  {
+    "name": "PosgreSQL",
+    "type": "db",
+    "score": 3,
+    "experience": 2
+  },
+  {
+    "name": "MySQL",
+    "type": "db",
+    "score": 2,
+    "experience": 0.5
+  },
+  {
+    "name": "SQLAlchemy(Python's ORM)",
+    "type": "db",
+    "score": 2,
+    "experience": 1
+  },
+  {
+    "name": "SQLBoiler(Golang's ORM)",
+    "type": "db",
+    "score": 2,
+    "experience": 0.5
+  },
+  {
+    "name": "Git",
+    "type": "others",
+    "score": 4,
+    "experience": 3
+  },
+  {
+    "name": "Vagrant",
+    "type": "others",
+    "score": 2,
+    "experience": 0.5
+  },
+  {
+    "name": "AWS",
+    "type": "others",
+    "score": 2,
+    "experience": 0.5
+  },
+  {
+    "name": "GCP",
+    "type": "others",
+    "score": 2,
+    "experience": 0.5
+  },
+  {
+    "name": "SQL",
+    "type": "language",
+    "score": 3,
+    "experience": 4
+  },
+  {
+    "name": "Java",
+    "type": "language",
+    "score": 1,
+    "experience": 0.5
+  },
+  {
+    "name": "C++",
+    "type": "language",
+    "score": 1,
+    "experience": 0.5
+  }
 ]

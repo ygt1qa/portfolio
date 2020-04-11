@@ -9,9 +9,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
-  const [pageColor, setColor] = useState(
-    window.location.pathname === "/" ? "light" : "dark"
-  );
+  const isHome = window.location.pathname === "/";
+  const [pageColor, setColor] = useState(isHome ? "light" : "dark");
   const changeDarkColor = () => {
     setColor("dark");
   };
@@ -22,7 +21,7 @@ function App() {
         <ScrollToTop />
         <Navigation handleClick={changeDarkColor} />
         <Selector />
-        <Footer />
+        {/* {!isHome && <Footer />} */}
       </div>
     </Router>
   );

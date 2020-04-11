@@ -1,13 +1,19 @@
 import React from "react";
 
 const Footer = () => {
+  const now = new Date();
+
   return (
     <footer className="content__footer">
       <div className="footer__container">
         <div className="footer__row">
-          <div className="footer__left__offset">
-            <p className="footer__desc">Creative back-end developer</p>
-            <p className="footer__desc">BORN 26 YEARS AGO</p>
+          <div className="footer__content--left">
+            <p className="footer__desc">CREATIVE BACK-END DEVELOPER</p>
+          </div>
+          <div className="footer__content--right">
+            <p className="footer__desc">
+              BORN {now.getFullYear() - 1994} YEARS AGO
+            </p>
           </div>
         </div>
         <div className="footer__row">

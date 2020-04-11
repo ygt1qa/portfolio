@@ -16,7 +16,6 @@
   transform: translateX(0);
   max-width: calc(100% - 70px);
   z-index: 15;
-  padding-bottom: 8rem;
 }
 
 .content--main {
@@ -38,7 +37,7 @@
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 185px 0 50px 0;
+  margin: 110px 0 50px 0;
 }
 
 .content__header:after {
@@ -48,7 +47,7 @@
 }
 
 .content__subtitle {
-  margin-left: calc(33.3333333333% + 20px);
+  margin-left: 30.3333333333%;
   float: left;
   display: block;
   margin-right: 20px;
@@ -82,9 +81,14 @@
 }
 
 .content__textCol:first-child {
-  margin-left: calc(33.333333333% + 20px);
+  margin-left: 30.333333333%;
 }
 
 .content__textCol--intro {
   padding-right: 40px;
+}
+
+.content__textCol--intro p {
+  line-height: 29px;
+  font-size: 23px;
 }

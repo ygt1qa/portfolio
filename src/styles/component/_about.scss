@@ -4,7 +4,8 @@
   background-color: #000;
   overflow: hidden;
   min-height: 100vh;
-  color: #FFF
+  color: #fff;
+  padding-bottom: 8rem;
 }
 
 .section-title .big-title {
@@ -18,7 +19,7 @@
 }
 
 .section-title .main-title {
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
   font-size: 36px;
   line-height: 36px;
@@ -52,19 +53,16 @@
   right: -25px;
 }
 
-.section-title p {
+.profile__content {
+  float: left;
+  margin-left: 5%;
+}
+
+.profile__content .text-big {
   color: #767777;
   font-size: 24px;
   line-height: 31px;
-  text-align: left;
-  padding-left: 30.5%;
-}
-
-.row {
-  position: relative;
-  margin-bottom: 80px;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: 0;
 }
 
 .col-md-3 {
@@ -82,7 +80,7 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: 400;
-  width: 40%;
+  width: 200px;
 }
 
 .row h3 {
@@ -100,11 +98,25 @@
   color: #ed1c24;
 }
 .row .good {
-  color: #fffA0c;
+  color: #fffa0c;
+}
+
+.content__about--main {
+  overflow: hidden;
+  width: 100%;
+  margin-left: 10%;
+  margin-bottom: 40px;
+}
+
+.content__about--icon {
+  overflow: hidden;
+  width: 100%;
+}
+
+.content__image {
+  float: left;
 }
 
 .profile__photo {
-  float: left;
-  margin-left: 150px;
   border-radius: 50%;
 }

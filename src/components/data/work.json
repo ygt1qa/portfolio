@@ -1,50 +1,63 @@
 [
-    {
-        "title": "One",
-        "from": "2019",
-        "to": "",
-        "subtitle": "test",
-        "contents": [
-            "test",
-            "TEST"
-        ],
-        "technologies": [
-            "Ruby",
-            "Rails",
-            "React",
-            "Postgres"
-        ]
-    },
-    {
-        "title": "Two",
-        "from": "2019",
-        "to": "",
-        "subtitle": "test",
-        "contents": [
-            "test",
-            "TEST"
-        ],
-        "technologies": [
-            "Ruby",
-            "Rails",
-            "React",
-            "Postgres"
-        ]
-    },
-    {
-        "title": "Three",
-        "from": "2019",
-        "to": "",
-        "subtitle": "test",
-        "contents": [
-            "test",
-            "TEST"
-        ],
-        "technologies": [
-            "Ruby",
-            "Rails",
-            "React",
-            "Postgres"
-        ]
-    }
+  {
+    "title": "Web Developer",
+    "from": "2019-12",
+    "to": "2020-3",
+    "subtitle": "ARI Advanced Technology Corporation",
+    "contents": [
+      "Matching Application for craftsman.",
+      "Working as the backend engineer and frontend engineer."
+    ],
+    "technologies": ["Ruby", "Rails", "React", "Postgres", "HTML", "CSS"]
+  },
+  {
+    "title": "Web Developer",
+    "from": "2019-8",
+    "to": "2020-10",
+    "subtitle": "Quatre Corporation",
+    "contents": [
+      "Inventory control system of samples.",
+      "Working as the backend engineer, instruct outsourcing engineers and support frontend engineer."
+    ],
+    "technologies": ["Golang", "Gin", "SQLBoiler", "Vue.js", "MySQL"]
+  },
+  {
+    "title": "WebApplication Engineer",
+    "from": "2018-5",
+    "to": "2019-8",
+    "subtitle": "KSK Analytics Corporation",
+    "contents": [
+      "Machine Learning Platform for beginner.",
+      "Working as the backend engineer and support application design."
+    ],
+    "technologies": [
+      "Python",
+      "Flask",
+      "SQLAlchemy",
+      "React",
+      "Holoviews",
+      "bokeh",
+      "pandas"
+    ]
+  },
+  {
+    "title": "WebApplication Engineer",
+    "from": "2016-4",
+    "to": "2018-4",
+    "subtitle": "NTT DATA MHI Systems Corporation",
+    "contents": [
+      "Support other engineer. task is programming, do test, and make documents.",
+      "First a year, working as programmer and tester, and rest of the year, working as project leader.",
+      "When My role is project leader, I handled the jobs from design to release alone."
+    ],
+    "technologies": [
+      "Python",
+      "Flask",
+      "SQLAlchemy",
+      "React",
+      "Holoviews",
+      "bokeh",
+      "pandas"
+    ]
+  }
 ]

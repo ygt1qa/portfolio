@@ -5,12 +5,12 @@
 
 .resume_section-inner {
   display: flex;
-  padding: 30px 25px 10px;
+  padding: 0 20px 10px;
   width: 100%;
 }
 
 .resume_section-title {
-  color: #FFF;
+  color: #fff;
   font-weight: 300;
   font-size: 24px;
   margin: 0 0 20px;
@@ -28,6 +28,10 @@
 
 .resume_section-content {
   flex-grow: 1;
+}
+
+.resume_section-content ul {
+  margin-top: 0;
 }
 
 .resume_section-content_item {
@@ -71,7 +75,7 @@
 
 .resume_section-content_title {
   flex-basis: 100%;
-  color: #FFF;
+  color: #fff;
   font-weight: 400;
   flex: 1 0 100%;
   line-height: 24px;
@@ -105,7 +109,7 @@
 }
 
 .resume_section-content_item .muted {
-  color: #FFF; 
+  color: #fff;
 }
 
 .resume_section-content_item ul {
