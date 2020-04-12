@@ -19,10 +19,10 @@ function Selector() {
               classNames="fade"
             >
               <Switch location={children.location}>
-                <Route exact path="/" component={Content}></Route>
-                <Route path="/about" component={About}></Route>
-                <Route path="/work" component={Work}></Route>
-                <Route path="/skill" component={Skill}></Route>
+                <Route exact path="/portfolio/" component={Content}></Route>
+                <Route path="/portfolio/about" component={About}></Route>
+                <Route path="/portfolio/work" component={Work}></Route>
+                <Route path="/portfolio/skill" component={Skill}></Route>
               </Switch>
             </CSSTransition>
           </TransitionGroup>

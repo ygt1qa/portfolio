@@ -13,7 +13,7 @@ function Navigation(props) {
     <div className="navBar">
       <div className="navBar__button">
         <NavLink
-          to="about"
+          to="/portfolio/about"
           className={"btn__about" + " " + (active === "about" ? "active" : "")}
           value="about"
           onClick={handleClick}
@@ -21,7 +21,7 @@ function Navigation(props) {
           ABOUT
         </NavLink>
         <NavLink
-          to="work"
+          to="/portfolio/work"
           className={"btn__work" + " " + (active === "work" ? "active" : "")}
           value="work"
           onClick={handleClick}
@@ -29,7 +29,7 @@ function Navigation(props) {
           WORK
         </NavLink>
         <NavLink
-          to="skill"
+          to="/portfolio/skill"
           className={"btn__skill" + " " + (active === "skill" ? "active" : "")}
           value="skill"
           onClick={handleClick}
