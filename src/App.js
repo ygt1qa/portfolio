@@ -6,7 +6,6 @@ import Navigation from "./components/Navigation";
 import Selector from "./components/Selector";
 import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 
 function App() {
   const isHome = window.location.pathname === "/";
@@ -21,7 +20,6 @@ function App() {
         <ScrollToTop />
         <Navigation handleClick={changeDarkColor} />
         <Selector />
-        {/* {!isHome && <Footer />} */}
       </div>
     </Router>
   );
