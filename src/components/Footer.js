@@ -19,22 +19,22 @@ const Footer = () => {
         <div className="footer__row">
           <ul className="footer__nav">
             <li>
-              <a href="#">
+              <a href="mailto:ygt1qa8@gmail.com">
                 <span className="icon-mail"></span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://twitter.com/ygt1qa8">
                 <span className="icon-twitter-3"></span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.facebook.com/ygt1qa">
                 <span className="icon-facebook"></span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://github.com/ygt1qa">
                 <span className="icon-github-01"></span>
               </a>
             </li>
