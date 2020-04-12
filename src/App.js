@@ -8,7 +8,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
 
 function App() {
-  const isHome = window.location.pathname === "/portfolio";
+  const isHome = window.location.pathname === "/portfolio/";
   const [pageColor, setColor] = useState(isHome ? "light" : "dark");
   const changeDarkColor = () => {
     setColor("dark");
