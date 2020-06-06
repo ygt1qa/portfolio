@@ -1,19 +1,17 @@
-
 table {
-border-collapse: collapse;
-margin: 0 auto;
-padding: 0;
-width: 650px;
-table-layout: fixed;
-// color: #4CAF50;
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+  table-layout: fixed;
 }
 
 table tr {
-padding: .35em;
-border-bottom: 1px dotted #FFF;
+  padding: 0.35em;
+  border-bottom: 1px dotted #fff;
 }
-table tr:last-child{
-  border-bottom: 2px solid #FFF;
+table tr:last-child {
+  border-bottom: 2px solid #fff;
 }
 table th,
 table td {
@@ -38,7 +36,7 @@ tbody th {
   text-decoration: none;
   font-weight: bold;
   border: 0;
-  margin: 0 10px;
+  margin: 0 10px 10px 10px;
   font-size: 24px;
   color: #767777;
   background-color: #000;
@@ -48,20 +46,20 @@ tbody th {
 }
 
 .skill__outer button.active {
-  color: #FFF;
+  color: #fff;
 }
 
 .skill__outer .filter button::after {
   position: absolute;
   bottom: -4px;
   left: 0;
-  content: '';
+  content: "";
   width: 100%;
   height: 2px;
-  background: #FFF;
+  background: #fff;
   transform: scale(0, 1);
   transform-origin: center top;
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .skill__outer .filter button:hover::after,
@@ -70,58 +68,63 @@ tbody th {
 }
 
 .skill__outer .skill__table button {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
   table {
-      border: 0;
-      width:100%
+    border: 0;
+    width: 100%;
   }
-  table th{
-      display: block;
-      border-right: none;
-      border-bottom: 2px solid #0f7d13;
-      padding-bottom: .6em;
-      margin-bottom: .6em;
-
+  table tr {
+    padding: 0;
+  }
+  table th {
+    display: block;
+    border-right: none;
+    border-bottom: 2px solid #0f7d13;
+    padding-bottom: 0.6em;
+    // margin-bottom: 0.6em;
   }
   table thead {
-      border: none;
-      clip: rect(0 0 0 0);
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px;
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
   }
 
   table tr {
-      display: block;
-      margin-bottom: 2em;
-          border-bottom: 2px solid #0f7d13;
+    display: block;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #0f7d13;
   }
 
   table td {
-      border-bottom: 1px solid #bbb;
-      display: block;
-      font-size: .8em;
-      text-align: right;
-      position: relative;
-      padding: .625em .625em .625em 4em;
-      border-right: none;
+    border-bottom: 1px solid #bbb;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+    position: relative;
+    padding: 0.625em;
+    border-right: none;
   }
 
   table td::before {
-      content: attr(data-label);
-      font-weight: bold;
-      position: absolute;
-      left: 10px;
+    content: attr(data-label);
+    font-weight: bold;
+    position: absolute;
+    left: 15px;
   }
 
   table td:last-child {
-      border-bottom: 0;
+    border-bottom: 0;
+  }
+  table tr:last-child {
+    border-bottom: 2px solid #0f7d13;
   }
 }

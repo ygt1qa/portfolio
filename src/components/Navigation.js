@@ -11,7 +11,11 @@ function Navigation(props) {
 
   return (
     <div className="navBar">
-      <div className="navBar__button">
+      <div
+        className={
+          "navBar__button" + (props.color === "light" ? " nav__light" : "")
+        }
+      >
         <NavLink
           to="/portfolio/about"
           className={"btn__about" + " " + (active === "about" ? "active" : "")}

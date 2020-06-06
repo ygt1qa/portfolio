@@ -131,3 +131,19 @@
   font-size: 14px;
   line-height: 20px;
 }
+
+@media (max-width: 799px) {
+  .resume_section-inner {
+    display: block;
+  }
+
+  .resume_section-content_item li {
+    padding: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  .resume_section-title:before {
+    width: 0;
+  }
+}

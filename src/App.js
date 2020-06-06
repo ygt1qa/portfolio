@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Header color={pageColor} />
         <ScrollToTop />
-        <Navigation handleClick={changeDarkColor} />
+        <Navigation handleClick={changeDarkColor} color={pageColor} />
         <Selector />
       </div>
     </Router>
