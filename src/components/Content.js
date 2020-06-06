@@ -38,7 +38,7 @@ function Content() {
           </div>
         </div>
       </div>
-      <Ticket />
+      {/* <Ticket /> */}
     </div>
   );
 }

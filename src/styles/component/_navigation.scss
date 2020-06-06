@@ -43,3 +43,40 @@
   color: #fff;
   pointer-events: none;
 }
+
+@media (max-width: 599px) {
+  .navBar {
+    position: absolute;
+    height: auto;
+    left: auto;
+    right: 0;
+    background: transparent;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  .navBar .navBar__button {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: flex-end;
+  }
+
+  .navBar .navBar__button a {
+    color: #111;
+    transform: none;
+    background-color: #fff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+
+  .navBar .navBar__button a.btn__work {
+    padding-top: 0px;
+  }
+
+  .navBar .navBar__button a.btn__skill {
+    padding-top: 0px;
+  }
+}

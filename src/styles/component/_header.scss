@@ -50,3 +50,20 @@ body a {
   width: calc(33.33333333% - 40px);
   line-height: 70px;
 }
+
+@media (max-width: 599px) {
+  .header {
+    width: 100%;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    padding-left: 15px;
+    margin-left: 0;
+  }
+
+  .header__home {
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+}
