@@ -160,3 +160,11 @@
     width: auto;
   }
 }
+
+@media (max-width: 599px) {
+  .section-title .big-title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
