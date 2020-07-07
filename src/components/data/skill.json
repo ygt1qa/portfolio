@@ -54,10 +54,16 @@
     "experience": 1
   },
   {
+    "name": "Rust",
+    "type": "language",
+    "score": 1,
+    "experience": 0.1
+  },
+  {
     "name": "React",
     "type": "framework",
     "score": 3,
-    "experience": 0.5
+    "experience": 1
   },
   {
     "name": "Vue.js",
@@ -80,7 +86,7 @@
   {
     "name": "kubernetes",
     "type": "others",
-    "score": 2,
+    "score": 1,
     "experience": 0.5
   },
   {
@@ -102,7 +108,7 @@
     "experience": 2
   },
   {
-    "name": "PosgreSQL",
+    "name": "PostgreSQL",
     "type": "db",
     "score": 3,
     "experience": 2
@@ -112,6 +118,12 @@
     "type": "db",
     "score": 2,
     "experience": 0.5
+  },
+  {
+    "name": "DynamoDB",
+    "type": "db",
+    "score": 1,
+    "experience": 0.1
   },
   {
     "name": "SQLAlchemy(Python's ORM)",
