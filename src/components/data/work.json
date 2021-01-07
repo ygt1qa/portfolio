@@ -1,8 +1,43 @@
 [
   {
+    "title": "Backend Engineer and Data Architect",
+    "from": "2020-10",
+    "to": "PRESENT",
+    "subtitle": "Cotegg Corporation",
+    "contents": [
+      "Built Data analysis Architecture and Lambda API for response aggregate data.",
+      "Aggregate data by using Tableau tools.",
+      "Lambda's language is Python"
+    ],
+    "technologies": ["Python", "Lambda", "RDS", "S3", "Redshift", "Glue", "Tableau"]
+  },
+  {
+    "title": "Engineer(side business)",
+    "from": "2020-12",
+    "to": "2020-12",
+    "subtitle": "Tech Connect Corporation",
+    "contents": [
+      "Built aws environment by Cloudformation.",
+      "The application deployed in instance is Rails application."
+    ],
+    "technologies": ["Ruby", "Ruby on Rails", "Cloudformation", "RDS", "CodeDeploy", "System Manager", "S3", "EC2"]
+  },
+  {
+    "title": "Frontend Engineer(side business)",
+    "from": "2020-10",
+    "to": "2020-11",
+    "subtitle": "NCDC",
+    "contents": [
+      "Mobile Application for car company.",
+      "Working as the frontend engineer.",
+      "Create new screen and fix existing screen."
+    ],
+    "technologies": ["Typescript", "React.js", "Redux", "Redux-saga", "Hooks"]
+  },
+  {
     "title": "Backend Engineer",
     "from": "2020-4",
-    "to": "PRESENT",
+    "to": "2020-9",
     "subtitle": "Cleaveware Corporation",
     "contents": [
       "Control application for air conditioner run on cloud.",
